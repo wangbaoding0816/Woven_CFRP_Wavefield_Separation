@@ -1,16 +1,20 @@
 # CFRP Wavefield Separation
 
-This repository contains code for wavefield separation in CFRP plates using a two-branch B-PINN model with a frequency-domain structural prior.
+
+This repository contains the PyTorch implementation and datasets for the paper: "Decoupling propagation and weave-induced modulation in laser-ultrasonic wavefields enables robust anisotropy characterization of woven CFRP".
 
 ## Repository layout
 
 ```
 .
-├─ data/                 # Zenodo data pointer (no data stored here)
-├─ outputs/              # generated artifacts (gitignored)
-├─ scripts/              # helper scripts (download + reproduction)
+├─ data/                 # Zenodo data pointer 
+├─ outputs/              # generated artifacts 
+├─ scripts/              # helper scripts
 └─ src/                  # core library code
 ```
+## Data
+Raw laser-ultrasonic wavefield data are hosted on Zenodo:
+DOI: https://doi.org/10.5281/zenodo.18168499
 
 ## Setup
 
