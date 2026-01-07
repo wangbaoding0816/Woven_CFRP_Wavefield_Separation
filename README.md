@@ -3,14 +3,17 @@
 
 This repository contains the PyTorch implementation and datasets for the paper: "Decoupling propagation and weave-induced modulation in laser-ultrasonic wavefields enables robust anisotropy characterization of woven CFRP".
 
-## Repository layout
+## 📂 Repository Structure
 
 ```
 .
-├─ data/                 # Zenodo data pointer 
-├─ outputs/              # generated artifacts 
-├─ scripts/              # helper scripts
-└─ src/                  # core library code
+├─ data/                 # Zenodo data pointer and metadata for raw wavefields
+├─ outputs/              # generated artifacts (figures, logs, checkpoints)
+├─ scripts/              # runnable utilities (data download, training, plotting)
+├─ src/                  # core library code (models, datasets, training loops)
+├─ environment.yml       # conda environment definition
+├─ README.md             # project overview and usage instructions
+└─ CITATION.cff          # citation metadata for the paper
 ```
 ## Data
 Raw laser-ultrasonic wavefield data are hosted on Zenodo:
