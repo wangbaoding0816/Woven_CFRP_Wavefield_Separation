@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "CFRP Wavefield Separation"
+message: "If you use this software, please cite it."
+type: software
+authors:
+  - family-names: Wang
+    given-names: Baoding
+year: 2026
+license: MIT
