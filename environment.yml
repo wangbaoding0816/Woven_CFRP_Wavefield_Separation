@@ -1,0 +1,14 @@
+name: cfrp-wavefield-separation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-image
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip

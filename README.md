@@ -1,16 +1,32 @@
-# woven_cfrp_wavefield_separation
-Code for reproducing wavefield separation and surface microstructure characterization in woven CFRP using laser ultrasonics.
-## Overview
-This repository contains the PyTorch implementation and datasets for the paper: 
-"Decoupling propagation and weave-induced modulation in laser-ultrasonic wavefields enables robust anisotropy characterization of woven CFRP".
+# CFRP Wavefield Separation
 
+This repository contains code for wavefield separation in CFRP plates using a two-branch B-PINN model with a frequency-domain structural prior.
 
-## Data
-Raw laser-ultrasonic wavefield data are hosted on Zenodo:
-DOI: https://doi.org/10.5281/zenodo.18168499
+## Repository layout
 
-## Quick start
+```
+.
+├─ data/                 # Zenodo data pointer (no data stored here)
+├─ outputs/              # generated artifacts (gitignored)
+├─ scripts/              # helper scripts (download + reproduction)
+└─ src/                  # core library code
+```
+
+## Setup
+
+Use the provided `environment.yml` or install dependencies from `requirements.txt`.
+
 ```bash
 conda env create -f environment.yml
-conda activate cfrp
-python scripts/reproduce_figures.py
+```
+
+## Quick start
+
+```bash
+python scripts/download_data.py --record <zenodo_record_id>
+python scripts/reproduce_figures.py --mode train
+```
+
+## Citation
+
+See `CITATION.cff` for citation metadata.
