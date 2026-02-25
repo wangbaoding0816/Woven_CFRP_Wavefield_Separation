@@ -1,7 +1,7 @@
 # CFRP Wavefield Separation
 
 
-This repository contains the PyTorch implementation and datasets for the paper: "Decoupling propagation and weave-induced modulation in laser-ultrasonic wavefields enables robust anisotropy characterization of woven CFRP".
+This repository contains the PyTorch implementation and datasets for the paper: "Decoupling propagation and texture-induced artifacts to improve time-of-flight reliability in scanning laser-ultrasonic measurements of woven CFRP".
 
 ## 📂 Repository Structure
 
